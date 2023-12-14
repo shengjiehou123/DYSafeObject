@@ -22,7 +22,7 @@
 
         [objc_getClass("__NSDictionaryM") swizzleSEL:@selector(removeObjectForKey:) withSEL:@selector(dy_removeObjectForKey:)];
         
-        [objc_getClass("__NSDictionaryM") swizzleSEL:@selector(setObject:forKeyedSubscript:) withSEL:@selector(dy_setObject:forKeyedSubscript:)];
+//        [objc_getClass("__NSDictionaryM") swizzleSEL:@selector(setObject:forKeyedSubscript:) withSEL:@selector(dy_setObject:forKeyedSubscript:)];
 
     });
 
